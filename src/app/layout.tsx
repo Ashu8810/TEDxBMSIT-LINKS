@@ -15,6 +15,13 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "TEDxBMSITM | Where Ideas Take the Stage",
   description: "Join us for a premium cinematic TEDx experience at BMSITM Bengaluru.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
